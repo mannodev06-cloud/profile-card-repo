@@ -1,63 +1,65 @@
-/* styles.css */
-    body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f0f2f5;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
 
-    .profile-card {
-      background: #fff;
-      width: 350px;
-      padding: 30px 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      text-align: center;
-      border: 1px solid #e5e7eb;
-    }
+.body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
 
-    .profile-card img {
-      width: 120px;
-      height: 120px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-bottom: 15px;
-    }
+.profile-card {
+  margin: 0 auto;
+  margin-top: 100px;
+  background: white;
+  width: 350px;
+  padding: 30px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 110, 1.1);
+  text-align: center;
+  border: 1px solid #e5e7eb;
+}
 
-    .profile-card h2 {
-      margin: 5px 0;
-      font-size: 22px;
-      color: #111827;
-    }
+.profile-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 0px 66px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
 
-    .profile-card h3 {
-      margin: 0;
-      font-size: 16px;
-      color: #4b5563;
-      font-weight: 500;
-    }
+.profile-card h1 {
+  margin: 5px 0;
+  font-size: 20px;
+  color: #111827;
+}
 
-    .profile-card p {
-      margin: 15px 0;
-      font-size: 14px;
-      color: #6b7280;
-      line-height: 1.5;
-    }
+.profile-card h2 {
+  margin: 0;
+  font-size: 19px;
+  color: #4b5563;
+  font-weight: 500;
+}
 
-    .social-links {
-      margin-top: 15px;
-    }
+.profile-card p {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #6b7280;
+  line-height: 1.5;
+}
 
-    .social-links a {
-      display: inline-block;
-      margin: 0 10px;
-      font-size: 20px;
-      color: #2563eb;
-      transition: color 0.3s;
-    }
+.social-links {
+  margin-top: 15px;
+}
 
-    .social-links a:hover {
-      color: #1e40af;
-    }
+.social-links a {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 20px;
+  color: #2563eb;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: black;
+}
